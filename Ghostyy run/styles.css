@@ -1,0 +1,80 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #282828;
+    color: white;
+    text-align: center;
+}
+
+#game-area {
+    width: 500px;
+    height: 500px;
+    position: relative;
+    margin: 0 auto;
+    border: 2px solid white;
+    background: linear-gradient(to bottom right, #222, #555);
+}
+
+#ghost {
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    font-size: 40px;
+}
+
+#escape-door {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 90px;
+    height: 500px;
+    font-size: 120px;
+    text-align: center;
+}
+.vision {
+    width: 100px;
+    height: 100px;
+    border: 1px solid #ff6347;
+    border-radius: 50%;
+    position: absolute;
+    top: -25px;
+    left: -25px;
+    opacity: 0.2;
+    background-color: #ff6347;
+}
+
+#message-area {
+    margin-top: 20px;
+}
+
+.instructions {
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+.watcher {
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    font-size: 40px;
+}
+
+#watcher1 { top: 50px; left: 100px; }
+#watcher2 { top: 150px; right: 150px; }
+#watcher3 { bottom: 250px; left: 200px; }
+#watcher4 { bottom: 100px; right: 100px; }
+#watcher5 { top: 300px; left: 300px; }
+
+.pumpkin {
+    position: absolute;
+    font-size: 50px;
+}
+
+#pumpkin1 { bottom: 20px; right: 60px; }
+#pumpkin2 { top: 40px; left: 180px; }
+#pumpkin3 { bottom: 120px; right: 180px; }
+#pumpkin4 { top: 260px; right: 50px; }
+#pumpkin5 { top: 170px; left: 40px; }
+#pumpkin6 { bottom: 300px; left: 220px; }
+#pumpkin7 { top: 10px; right: 300px; }
+#pumpkin8 { bottom: 30px; left: 50px; }
+#pumpkin9 { top: 90px; right: 70px; }
+
